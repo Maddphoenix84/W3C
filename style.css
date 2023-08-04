@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+
+}
+
+
+
+#logo-link {
+       
+     display: grid;
+     max-width: 100%;
+     justify-self: right;
+     grid-template-columns: 1fr 1fr;
+
+
+}
+
+#handerpants{
+    color: rgb(255, 8, 8); font-size: large; font-family: fantasy; font-style: italic; 
+}
