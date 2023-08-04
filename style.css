@@ -1,4 +1,5 @@
 body{
+   display: grid;
     background-color: black;
 
 }
@@ -9,7 +10,7 @@ body{
        
      display: grid;
      max-width: 100%;
-     justify-self: right;
+     
      grid-template-columns: 1fr 1fr;
 
 
@@ -17,4 +18,23 @@ body{
 
 #handerpants{
     color: rgb(255, 8, 8); font-size: large; font-family: fantasy; font-style: italic; 
+    display: grid;
+    
+    
+
+}
+
+#mystory{
+    color: rgba(255, 72, 0, 0.767);
+   display: grid;
+
+   font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
 }
