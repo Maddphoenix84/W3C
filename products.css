@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(0, 0, 0);
+    display: grid;
+
+}
+#introduction{
+    color: rgb(236, 222, 17); 
+    
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+#bestproduct {
+    color: crimson;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+
+#smlinks{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+
+#privacy_news{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
